@@ -18,7 +18,7 @@ class StationItemReader(
     private val gson = Gson()
 
     private val inputStream: InputStream
-        get() = context.resources.openRawResource(R.raw.cergy_pontoise)
+        get() = context.resources.openRawResource(R.raw.jcdecauxbike)
 
     fun read(): List<StationsItem> {
         val itemType = object : TypeToken<List<StationsItemresponse>>() {}.type

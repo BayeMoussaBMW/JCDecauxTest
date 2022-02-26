@@ -1,0 +1,58 @@
+[
+  {
+    "number": 1031,
+    "name": "1031 - CYCLOBURO TOULOUSE",
+    "address": "",
+    "latitude": 43.6091743143945,
+    "longitude": 1.42663756256561
+  },
+  {
+    "number": 501,
+    "name": "501 - BEE PLAISIR",
+    "address": "",
+    "latitude": 48.7996485186764,
+    "longitude": 1.9454276487659
+  },
+  {
+    "number": 1191,
+    "name": "1191 - CANEBIERE ST. FERREOL",
+    "address": "",
+    "latitude": 43.2871645099092,
+    "longitude": 5.44339041717107
+  },
+  {
+    "number": 5033,
+    "name": "5033 - VELOV PARC EXPO",
+    "address": "",
+    "latitude": 48.8004014,
+    "longitude": 1.9482282
+  },
+  {
+    "number": 2017,
+    "name": "2017 - LUX PARC EXPO",
+    "address": "",
+    "latitude": 48.800357,
+    "longitude": 1.948533
+  },
+  {
+    "number": 2019,
+    "name": "2019 - LA CHAINE IOD",
+    "address": "",
+    "latitude": 48.807319,
+    "longitude": 1.9518784
+  },
+  {
+    "number": 1033,
+    "name": "1033 - CYCLOBURO BORDEAUX",
+    "address": "",
+    "latitude": 44.868181,
+    "longitude": -0.547516
+  },
+  {
+    "number": 500,
+    "name": "500 - IT PLAISIR",
+    "address": "",
+    "latitude": 48.799803992889,
+    "longitude": 1.94688677040593
+  }
+]
