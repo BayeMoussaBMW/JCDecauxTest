@@ -16,7 +16,7 @@ import com.kalamou.jcdecauxtest.utils.BitmapHelper
 class MainActivity : AppCompatActivity() {
 
     private var circle: Circle? = null
-    //TODO
+    //TODO TODO
 
     private val stations: List<StationsItem> by lazy {
         StationItemReader(this).read()
