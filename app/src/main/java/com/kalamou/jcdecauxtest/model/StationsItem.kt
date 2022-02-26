@@ -3,6 +3,7 @@ package com.kalamou.jcdecauxtest.model
 import com.google.android.gms.maps.model.LatLng
 import com.google.maps.android.clustering.ClusterItem
 import kotlinx.serialization.SerialName
+import kotlinx.serialization.descriptors.PrimitiveKind
 
 
 data class StationsItem(
@@ -12,15 +13,15 @@ data class StationsItem(
     val name: String,
     @SerialName("address")
     val address: String,
-    @SerialName("position")
+    @SerialName("latitude")
     val latitude: Double,
-    @SerialName("shape")
-    val longitude: Double
+    @SerialName("longitude")
+    val longitude: Double,
 
-): ClusterItem {
-
-    override fun getPosition(): LatLng =
-        latitude as LatLng
+    ) : ClusterItem {
+    override fun getPosition(): LatLng {
+        return LatLng(latitude, longitude)
+    }
 
     override fun getTitle(): String =
         name

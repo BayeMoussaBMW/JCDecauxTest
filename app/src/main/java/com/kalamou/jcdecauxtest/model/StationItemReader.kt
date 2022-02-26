@@ -29,42 +29,42 @@ class StationItemReader(
     }
 
     override fun onClustersChanged(clusters: MutableSet<out Cluster<StationsItem>>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterClickListener(listener: ClusterManager.OnClusterClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterInfoWindowClickListener(listener: ClusterManager.OnClusterInfoWindowClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterInfoWindowLongClickListener(listener: ClusterManager.OnClusterInfoWindowLongClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterItemClickListener(listener: ClusterManager.OnClusterItemClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterItemInfoWindowClickListener(listener: ClusterManager.OnClusterItemInfoWindowClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setOnClusterItemInfoWindowLongClickListener(listener: ClusterManager.OnClusterItemInfoWindowLongClickListener<StationsItem>?) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun setAnimation(animate: Boolean) {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 
     override fun onAdd() {
-        TODO("Not yet implemented")
+       // TODO("Not yet implemented")
     }
 
     override fun onRemove() {
-        TODO("Not yet implemented")
+        //TODO("Not yet implemented")
     }
 }
